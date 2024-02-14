@@ -9,7 +9,7 @@ return (
     <section className="toggle-container">
         <div>ThemeToggle</div>
         <button className="dark-toggle" onClick={toggleDarkTheme}>
-            {!isDarkTheme ? 
+            {isDarkTheme ? 
             <BsFillMoonFill className="toggle-icon" /> :
             <BsFillSunFill className="toggle-icon"/>
 }
