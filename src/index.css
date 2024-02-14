@@ -28,3 +28,13 @@ body{
   background-color: var(--bg-color);
   color: var(--color);
 }
+
+.imageContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.imageContainer img{
+  max-width: 350px;
+}
