@@ -1,0 +1,60 @@
+
+/* Search Form Styling */
+.search-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.serach-input{
+    width: 45%;
+    height: 2rem;
+    margin: 0rem 0.25rem;
+    padding: 0.25rem 0.5rem ;
+    border: 1px solid #1f1f1f;
+    border-radius: 0.25rem;
+}
+
+.serach-input::placeholder{
+    font-size: 18px;
+    color: #bdbcbc;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #1f1f1f;
+    border-radius: 0.25rem;
+}
+
+.btn:hover{
+    background-color: #ebff55;
+}
+
+
+/* Theme Toggle Styling*/
+
+.title{
+    font-size: 42px;
+}
+
+.toggle-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.dark-toggle{
+    border: none;
+    padding: 0;
+    height: 26px;
+}
+
+.toggle-icon{
+    font-size: 26px;
+}
+
+.dark-toggle .moon{
+    background-color: #1f1f1f;
+    color: #fff;
+}

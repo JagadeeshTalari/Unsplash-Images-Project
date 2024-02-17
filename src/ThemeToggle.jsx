@@ -7,11 +7,12 @@ const ThemeToggle = () => {
     
 return (
     <section className="toggle-container">
-        <div>ThemeToggle</div>
+        {/* <div>ThemeToggle</div> */}
+        <h1 className="title">Unsplash Images</h1>
         <button className="dark-toggle" onClick={toggleDarkTheme}>
             {isDarkTheme ? 
-            <BsFillMoonFill className="toggle-icon" /> :
-            <BsFillSunFill className="toggle-icon"/>
+            <BsFillMoonFill className="toggle-icon moon" /> :
+            <BsFillSunFill className="toggle-icon sun"/>
 }
         </button>
     </section>
